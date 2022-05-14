@@ -132,3 +132,10 @@ button {
 button[type=submit] {
     margin-top: 2rem;
 }
+
+footer {
+    float: right;
+    width: 30%;
+    font-size: .5rem;
+    color: #314e6e;
+}
