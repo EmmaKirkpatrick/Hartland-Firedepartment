@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/form-style.css">
+    <title>Form</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About us</a></li>
+            <li><a href="/staff.html">Staff</a></li>
+            <li><a href="/form.html">Form</a></li>
+        </ul>
+    </nav>
+
+    <div id="wrapper">
+    
+        <h1>Join our volunteer department</h1>
+
+    <section class="form">
+        <form method="post" name="Application" data-netlify="true">
+
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="first name" required>
+            </div>
+
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="last name" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div>
+                <Label for="phone">Phone Number</Label>
+                <input type="tel" name="phone" id="phone" required>
+            </div>
+
+            <div>
+                <label for="yearsofexperience">Years of experience</label>
+                <input type="number" name="yearsofexperience" id="yearsofexperience" min="0" max="65" step="1" required>
+            </div>
+
+            <div class="cert">
+                <span>Are you firefighter 1 certified?</span>
+                <label for="cert">Yes</label>
+                <input type="radio" name="cert" id="yes" value="yes">
+
+                <label for="cert">No</label>
+                <input type="radio" name="cert" id="no" value="no">
+            </div>
+
+            <div>
+                <label for="notes">Is there anything else you would like us to know?</label>
+                <textarea id="notes" name="notes"></textarea>
+            </div>
+
+            <div>
+                <label for="terms">I agree to come to all meetings</label>
+                <input type="checkbox" name="terms" id="terms">
+            </div>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+</div> 
+
+
+    
+</body>
+</html>
